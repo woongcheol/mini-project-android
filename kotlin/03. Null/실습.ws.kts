@@ -11,3 +11,16 @@ val number2: Int? = 3 + 5
 // Null 타입에 할당 시 제한사항 해제
 val num3: Int? = number1!! + number2!!
 println(num3)
+
+// 비교 연산은 가능
+if(null == 5) {
+    println("same")
+} else {
+    println("not same")
+}
+
+if(null == null) {
+    println("same")
+} else {
+    println("not same")
+}
