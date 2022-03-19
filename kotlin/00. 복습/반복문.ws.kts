@@ -57,7 +57,7 @@ fun cubeGame(start: Int, end: Int) {
             if (i + j == 6) {
                 var a = listOf<Int>(i, j)
                 ans2.add(a)
-            } else continue
+            } else break
         }
     }
     println(ans2)
@@ -109,10 +109,10 @@ abc(3)
 println("열 번째 문제")
 val even = mutableListOf<Int>()
 val odd = mutableListOf<Int>()
-val numMap = mutableMapOf<String, Collection<Int>>("짝수" to even, "홀수" to odd)
+val numMap = mutableMapOf<String, List<Int>>("짝수" to even, "홀수" to odd)
 val numList = mutableListOf<Int>(1, 2, 3, 4, 5, 6, 7, 8, 9)
 println(numList[0])
-fun divNum(data: Collection<Int>) {
+fun divNum(data: List<Int>) {
     for (i in 0..data.size-1) {
         if (numList[i] % 2 == 0) {
             even.add(numList[i])
