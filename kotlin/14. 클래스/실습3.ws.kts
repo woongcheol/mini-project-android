@@ -32,3 +32,14 @@ val book2 = Book2()
 book2.title = "책 이름"
 println(book2.nextPage())
 println(book2.title)
+
+//lazy
+class Book3() {
+    val title: String by lazy {
+        println("lazy 초기화")
+        "첵 제목"
+    }
+}
+
+var book3 = Book3()
+println(book3.title)
