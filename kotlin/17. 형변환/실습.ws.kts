@@ -30,5 +30,4 @@ if (warrior is DefenseWarrior) {
     warrior.defense()
     warrior.attack()
 }
-
 val warrior2: DefenseWarrior = warrior as DefenseWarrior
