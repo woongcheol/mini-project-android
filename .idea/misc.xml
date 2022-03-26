@@ -3,9 +3,31 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/woowo/github/mini-project/mini-project-android/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/woowo/github/mini-project/mini-project-android/app/src/main/res/drawable/button_calculation.xml" value="0.1" />
+        <entry key="..\:/Users/woowo/github/mini-project/mini-project-android/app/src/main/res/drawable/drawable_practice.xml" value="0.1" />
+        <entry key="..\:/Users/woowo/github/mini-project/mini-project-android/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/woowo/github/mini-project/mini-project-android/app/src/main/res/layout/activity_calculator.xml" value="0.1" />
+        <entry key="..\:/Users/woowo/github/mini-project/mini-project-android/app/src/main/res/layout/activity_intent_one.xml" value="0.1" />
+        <entry key="..\:/Users/woowo/github/mini-project/mini-project-android/app/src/main/res/layout/activity_intent_two.xml" value="0.1" />
         <entry key="..\:/Users/woowo/github/mini-project/mini-project-android/app/src/main/res/layout/activity_main.xml" value="0.12604166666666666" />
-        <entry key="..\:/Users/woowo/github/mini-project/mini-project-android/app/src/main/res/layout/activity_main2.xml" value="0.25" />
-        <entry key="..\:/Users/woowo/github/mini-project/mini-project-android/app/src/main/res/layout/layout_practice.xml" value="0.264" />
+        <entry key="..\:/Users/woowo/github/mini-project/mini-project-android/app/src/main/res/layout/activity_main2.xml" value="0.1" />
+        <entry key="..\:/Users/woowo/github/mini-project/mini-project-android/app/src/main/res/layout/activity_test.xml" value="0.6" />
+        <entry key="..\:/Users/woowo/github/mini-project/mini-project-android/app/src/main/res/layout/constraint_bias_practice.xml" value="0.16" />
+        <entry key="..\:/Users/woowo/github/mini-project/mini-project-android/app/src/main/res/layout/constraint_chain_practice.xml" value="0.1" />
+        <entry key="..\:/Users/woowo/github/mini-project/mini-project-android/app/src/main/res/layout/constraint_circle_practice.xml" value="0.1" />
+        <entry key="..\:/Users/woowo/github/mini-project/mini-project-android/app/src/main/res/layout/constraint_linearlayout_practice.xml" value="0.1" />
+        <entry key="..\:/Users/woowo/github/mini-project/mini-project-android/app/src/main/res/layout/constraint_margin_practice.xml" value="0.13323201621073963" />
+        <entry key="..\:/Users/woowo/github/mini-project/mini-project-android/app/src/main/res/layout/constraint_practice1.xml" value="0.13323201621073963" />
+        <entry key="..\:/Users/woowo/github/mini-project/mini-project-android/app/src/main/res/layout/drawable_button_practice.xml" value="0.1" />
+        <entry key="..\:/Users/woowo/github/mini-project/mini-project-android/app/src/main/res/layout/framelayout_practice.xml" value="0.1" />
+        <entry key="..\:/Users/woowo/github/mini-project/mini-project-android/app/src/main/res/layout/gravity_practice.xml" value="0.2" />
+        <entry key="..\:/Users/woowo/github/mini-project/mini-project-android/app/src/main/res/layout/layout_practice.xml" value="0.1" />
+        <entry key="..\:/Users/woowo/github/mini-project/mini-project-android/app/src/main/res/layout/margin_padding_practice.xml" value="0.16" />
+        <entry key="..\:/Users/woowo/github/mini-project/mini-project-android/app/src/main/res/layout/relativelayout_practice.xml" value="0.1634963768115942" />
+        <entry key="..\:/Users/woowo/github/mini-project/mini-project-android/app/src/main/res/layout/relativelayout_practice2.xml" value="0.176" />
+        <entry key="..\:/Users/woowo/github/mini-project/mini-project-android/app/src/main/res/layout/resource.xml" value="0.1" />
+        <entry key="..\:/Users/woowo/github/mini-project/mini-project-android/app/src/main/res/layout/scrollview_practice.xml" value="0.13323201621073963" />
         <entry key="..\:/Users/woowo/github/mini-project/mini-project-android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.25" />
       </map>
     </option>
