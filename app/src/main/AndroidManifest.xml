@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".Intent_one"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityTwo"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityThree"
+            android:exported="false" />
+        <activity
             android:name=".Intent_two"
             android:exported="false" />
         <activity
@@ -22,7 +31,7 @@
             android:name=".MainActivity2"
             android:exported="false" />
         <activity
-            android:name=".Intent_one"
+            android:name=".ActivityOne"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
