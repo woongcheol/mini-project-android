@@ -4,14 +4,64 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".Intent_one">
 
     <TextView
         android:id="@+id/implicit_intent"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@color/purple_500"
+        android:background="@color/purple_200"
         android:gravity="center"
-        android:text="암시적 인텐트"/>
+        android:text="암시적 인텐트" />
+
+    <TextView
+        android:id="@+id/intent_one"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:text="명시적 인텐트" />
+
+    <TextView
+        android:id="@+id/intent_two"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:text="명시적 인텐트2" />
+
+    <TextView
+        android:id="@+id/intent_three"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:text="명시적 인텐트3 + data" />
+
+    <TextView
+        android:id="@+id/intent_four"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:text="명시적 인텐트4 + result 1" />
+
+    <TextView
+        android:id="@+id/intent_five"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:text="명시적 인텐트4 + result 2" />
+
+    <TextView
+        android:id="@+id/intent_six"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:text="명시적 인텐트5 + 이미지 URI 전달"/>
+
 
 </androidx.appcompat.widget.LinearLayoutCompat>
