@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".FragmentActivity">
 
     <androidx.fragment.app.FragmentContainerView
@@ -12,5 +13,28 @@
         android:layout_width="match_parent"
         android:layout_height="100dp"
         tools:layout="@layout/activity_first_fragment" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/add"
+        android:gravity="center"
+        android:background="@color/purple_200"
+        android:text="add"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/remove"
+        android:gravity="center"
+        android:background="@color/purple_200"
+        android:text="remove"
+        android:textSize="40dp"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 </androidx.appcompat.widget.LinearLayoutCompat>
