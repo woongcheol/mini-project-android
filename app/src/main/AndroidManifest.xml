@@ -16,7 +16,7 @@
             android:name=".WebViewActivity"
             android:exported="false" />
         <activity
-            android:name=".FragmentActivity"
+            android:name=".first_fragment"
             android:exported="false" />
         <activity
             android:name=".ActivityOne"
@@ -44,7 +44,7 @@
             android:name=".MainActivity2"
             android:exported="false" />
         <activity
-            android:name=".first_fragment"
+            android:name=".FragmentActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

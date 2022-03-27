@@ -15,26 +15,37 @@
         tools:layout="@layout/activity_first_fragment" />
 
     <TextView
+        android:id="@+id/add"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:id="@+id/add"
-        android:gravity="center"
         android:background="@color/purple_200"
+        android:gravity="center"
         android:text="add"
-        android:textSize="40dp"/>
+        android:textSize="40dp" />
 
     <TextView
+        android:id="@+id/remove"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:id="@+id/remove"
-        android:gravity="center"
         android:background="@color/purple_200"
+        android:gravity="center"
         android:text="remove"
-        android:textSize="40dp"/>
+        android:textSize="40dp" />
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:id="@+id/root"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/access_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text="access fragment"
+        android:textColor="@color/white"
+        android:textSize="50dp"/>
+
 
 </androidx.appcompat.widget.LinearLayoutCompat>
