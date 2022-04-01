@@ -14,6 +14,18 @@
         android:theme="@style/Theme.MyApplication"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".PhoneBookDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PhoneBookActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".Activity_Add_View"
             android:exported="true">
             <intent-filter>
