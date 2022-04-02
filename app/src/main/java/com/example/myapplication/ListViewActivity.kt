@@ -6,10 +6,8 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.BaseAdapter
-import android.widget.ImageView
-import android.widget.ListView
-import android.widget.TextView
+import android.widget.*
+import androidx.recyclerview.widget.RecyclerView
 
 class ListViewActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -30,9 +28,32 @@ class ListViewActivity : AppCompatActivity() {
             this
         )
 
-
+        // 어답터 장착 방법
         val listView = findViewById<ListView>(R.id.listview)
         listView.adapter = adapter
+
+
+        // 리스너 장착 방법
+        listView.setOnItemClickListener { parent, view, position, id ->
+            val car = adapter.carList.get(position)
+            val nthCar = car.nthCar
+            val nthEngine = car.nthEngine
+
+            Toast.makeText(
+                this,
+                nthCar + " " + nthEngine,
+                Toast.LENGTH_LONG
+            ).show()
+
+        }
+
+        // 데이터 갱신 방법
+        findViewById<TextView>(R.id.addCar).setOnClickListener {
+            adapter.carList.add(
+                Car("안녕 나는 차", "안녕 나는 엔진")
+            )
+            adapter.notifyDataSetChanged()
+        }
 
     }
 }
@@ -57,20 +78,51 @@ class ListViewAdapter(
     }
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
-        // 해당 번째 뷰를 리턴
-        val view = layoutInflater.inflate(R.layout.car_item, null)
-        val carImage = view.findViewById<ImageView>(R.id.carImage)
-        val nthCar = view.findViewById<TextView>(R.id.nthCar)
-        val nthEngine = view.findViewById<TextView>(R.id.nthEngine)
+        val view: View
+        val holder: ViewHolder
+        if (convertView == null) {
+            // 재활용 불가능
+            view = layoutInflater.inflate(R.layout.car_item, null)
+            holder = ViewHolder()
+            holder.carImage = view.findViewById(R.id.carImage)
+            holder.nthCar = view.findViewById(R.id.nthCar)
+            holder.nthEngine = view.findViewById(R.id.nthEngine)
 
+            view.tag = holder
+        } else {
+            // 재활용 가능
+            holder = convertView.tag as ViewHolder
+            view = convertView
+        }
         val car = carList.get(position)
-        carImage.setImageDrawable(
+        holder.carImage?.setImageDrawable(
             context.resources.getDrawable(R.drawable.ic_launcher_foreground, context.theme)
 
         )
-        nthCar.text = car.nthCar
-        nthEngine.text = car.nthEngine
+        holder.nthCar?.text = car.nthCar
+        holder.nthEngine?.text = car.nthEngine
 
         return view
+// 해당 번째 뷰를 리턴
+//        val view = layoutInflater.inflate(R.layout.car_item, null)
+//        val carImage = view.findViewById<ImageView>(R.id.carImage)
+//        val nthCar = view.findViewById<TextView>(R.id.nthCar)
+//        val nthEngine = view.findViewById<TextView>(R.id.nthEngine)
+//
+//        val car = carList.get(position)
+//        carImage.setImageDrawable(
+//            context.resources.getDrawable(R.drawable.ic_launcher_foreground, context.theme)
+//
+//        )
+//        nthCar.text = car.nthCar
+//        nthEngine.text = car.nthEngine
+//
+//        return view
     }
+}
+
+class ViewHolder {
+    var carImage: ImageView? = null
+    var nthCar: TextView? = null
+    var nthEngine: TextView? = null
 }
