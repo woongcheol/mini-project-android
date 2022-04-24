@@ -15,6 +15,9 @@
         android:theme="@style/Theme.MyApplication"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".DiaryDetailActivity"
+            android:exported="false" />
+        <activity
             android:name=".DiaryActivity"
             android:exported="true">
             <intent-filter>
