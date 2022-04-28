@@ -86,6 +86,7 @@
                 android:textSize="24sp" />
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/moduloButton"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="7dp"
@@ -97,6 +98,7 @@
                 android:textSize="24sp" />
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/dividerButton"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="7dp"
@@ -111,6 +113,7 @@
         <TableRow android:layout_weight="1">
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/sevenButton"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="7dp"
@@ -122,6 +125,7 @@
                 android:textSize="24sp" />
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/eightButton"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="7dp"
@@ -133,6 +137,7 @@
                 android:textSize="24sp" />
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/nineButton"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="7dp"
@@ -144,6 +149,7 @@
                 android:textSize="24sp" />
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/multiButton"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="7dp"
@@ -158,7 +164,7 @@
         <TableRow android:layout_weight="1">
 
             <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="wrap_content"
+                android:id="@+id/fourButton"
                 android:layout_height="match_parent"
                 android:layout_margin="7dp"
                 android:background="@drawable/button_background"
@@ -169,6 +175,7 @@
                 android:textSize="24sp" />
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/fiveButton"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="7dp"
@@ -180,6 +187,7 @@
                 android:textSize="24sp" />
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/sixButton"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="7dp"
@@ -191,6 +199,7 @@
                 android:textSize="24sp" />
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/minusButton"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="7dp"
@@ -205,6 +214,7 @@
         <TableRow android:layout_weight="1">
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/oneButton"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="7dp"
@@ -216,6 +226,7 @@
                 android:textSize="24sp" />
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/twoButton"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="7dp"
@@ -227,6 +238,7 @@
                 android:textSize="24sp" />
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/threeButton"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="7dp"
@@ -238,6 +250,7 @@
                 android:textSize="24sp" />
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/plusButton"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="7dp"
@@ -266,6 +279,7 @@
                 android:textSize="24sp" />
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/zeroButton"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="7dp"
